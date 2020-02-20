@@ -3,7 +3,7 @@ from botocore.vendored import requests
 
 print('Loading function')
 
-url = "https://hooks.slack.com/services/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"
+url = "webhook"
 canal = "#lab-testes"
 
 def lambda_handler(event, context):
