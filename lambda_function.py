@@ -3,7 +3,7 @@ from botocore.vendored import requests
 
 print('Loading function')
 
-url = "webhook"
+url = "https://webhook"
 canal = "#lab-testes"
 
 def lambda_handler(event, context):
